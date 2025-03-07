@@ -10,6 +10,7 @@ const tripSchema = new mongoose.Schema({
     night: String,
     date: Date,
     price: String,
+    booked: Number,
     quota: Number,
     description: String,
     image: String,
